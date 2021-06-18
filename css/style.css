@@ -122,6 +122,7 @@ body {
 }
 
 .button {
+  font-family: inherit;
   background-color: var(--accent-color);
   color: #ffffff;
   font-weight: 700;
