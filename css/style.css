@@ -7,6 +7,12 @@
   --prinary-font-family: "Roboto", sant-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -95,7 +101,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 .adress-text {
@@ -116,22 +122,27 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .button {
-  font-family: inherit;
   background-color: var(--accent-color);
   color: #ffffff;
+  font-family: inherit;
+  font-style: normal;
   font-weight: 700;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 1, 87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  align-items: center;
+  text-align: center;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #188ce8;
 }
 
@@ -196,7 +207,7 @@ body {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
 }
 
@@ -209,31 +220,34 @@ body {
 .filter-btn {
   background-color: var(--primary-bg-color-filter);
   color: var(--secondary-text-color);
+  font-family: inherit;
   cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
+
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
 
-/* .everything {
-  color: var(--primary-bg-color);
-  background-color: var(--accent-color);
-} */
-
 .list-of-our-works .title {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .description-of-work {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 }
 
 /* ======================END OUR WORK SECTION====================== */
