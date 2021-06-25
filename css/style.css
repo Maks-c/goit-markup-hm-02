@@ -26,22 +26,23 @@ body {
 
 .list {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .link {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
-  padding: 0px;
-}
-
-p{
-  margin: 0px;
-  padding: 0px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /*======================HEADER======================*/
@@ -65,7 +66,6 @@ p{
 .site-list {
   display: flex;
   margin-left: 90px;
-  
 }
 
 .site-list .item + .item {
@@ -186,14 +186,13 @@ p{
   text-align: center;
 }
 
-.hero-container{
+.hero-container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
-  
 }
 
 .hero-title {
@@ -242,7 +241,6 @@ p{
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
-  
 }
 
 .features-list {
@@ -254,12 +252,10 @@ p{
   margin-right: auto;
   padding-top: 94px;
   padding-bottom: 47px;
-
 }
 
 .features-list .item + .item {
   padding-left: 30px;
-  
 }
 
 .features-title {
@@ -275,8 +271,6 @@ p{
 }
 
 .text-description {
-  
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -293,10 +287,7 @@ p{
   margin-right: auto;
   padding-bottom: 94px;
   outline: 2px solid tomato;
-  
 }
-
-
 
 .work-list {
   display: flex;
@@ -329,18 +320,17 @@ p{
   color: var(--secondary-text-color);
 }
 
-.team-foto{
+.team-foto {
   display: block;
 }
 
-.team-position{
+.team-position {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
-
 }
 
 .team-title {
@@ -351,39 +341,37 @@ p{
   text-align: center;
 }
 
-.team-list{
+.team-list {
   display: flex;
   justify-content: center;
-  
 }
 
-.team-item{
-  
+.team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
 
 .title-command-description {
   display: block;
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18px;
   text-align: center;
-  outline:2px solid tomato;
+  outline: 2px solid tomato;
 }
 
 .command-description {
-  
+  display: block;
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  outline:2px solid tomato; 
+  outline: 2px solid tomato;
 }
 
-.team-list .team-item:not(:last-child){
+.team-list .team-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -431,7 +419,6 @@ p{
   justify-content: center;
   margin-bottom: 50px;
   padding-top: 94px;
-
 }
 
 .filter .item + .item {
